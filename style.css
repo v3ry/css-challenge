@@ -14,6 +14,12 @@ body{
     justify-content: center;
     align-items: center;
 }
-.header ul{
+.header h2{
+    color:lightblue;
+    margin: 1rem;
+}
+.header ul li{
     color: aliceblue;
+    margin: 0.5rem;
+    
 }
