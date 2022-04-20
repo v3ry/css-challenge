@@ -46,6 +46,7 @@ h1 span{
 .header ul li{
     color: aliceblue;
     margin: 0.7rem;
+    font-size: 1.1rem;
     
     
 }
@@ -53,7 +54,9 @@ h1 span{
     margin: 3rem;
 }
 .main h2{
-    display: inline;
+    display: block;
+    width: fit-content;
+    margin: 3rem auto auto auto;
     color: blue;
     padding: 0.5rem;
     background-color: aliceblue;
@@ -62,7 +65,28 @@ h1 span{
 }
 .main ol{
     margin: 3rem auto auto auto;
+    width:fit-content;
     background-color: aquamarine;
     border: 4px inset burlywood;
     border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+.calorie h3{
+    width: fit-content;
+    margin: 3rem auto;
+    padding: 0.5rem;
+    background-color: aliceblue;
+    border: 4px inset burlywood;
+    border-radius: 10px;
+}
+.calorie table{
+    margin: 3rem auto;
+    width: fit-content;
+    background-color: aliceblue;
+    border-collapse: collapse;
+}
+.calorie th,td{
+    border: 3px solid black;
+    padding: 1rem;
 }
