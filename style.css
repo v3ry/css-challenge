@@ -6,20 +6,63 @@ body{
     background-image: url("./img/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+h1{
+    margin: 1rem;
+    text-align: center;
+    
+    
+}
+h1 span{
+    color: white;
+    padding: 0.4rem;
+    background-color:navy;
+    border: 4px ridge red;
 }
 
 .header{
-    margin-top: 2rem;
-    display: flex;
-    justify-content: center;
+    width: fit-content;
+    display: inline-flex;
     align-items: center;
+    margin: 3rem auto auto auto;
+    padding: 3rem;
+    border: 4px solid white;
+    border-radius: 3rem;
+    background-color: navy;
+
 }
 .header h2{
     color:lightblue;
     margin: 1rem;
 }
+.header ul{
+    
+}
 .header ul li{
     color: aliceblue;
-    margin: 0.5rem;
+    margin: 0.7rem;
     
+    
+}
+.main{
+    margin: 3rem;
+}
+.main h2{
+    display: inline;
+    color: blue;
+    padding: 0.5rem;
+    background-color: aliceblue;
+    border: 4px inset burlywood;
+    border-radius: 10px;
+}
+.main ol{
+    margin: 3rem auto auto auto;
+    background-color: aquamarine;
+    border: 4px inset burlywood;
+    border-radius: 10px;
 }
