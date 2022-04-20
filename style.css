@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url("./img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header ul{
+    color: aliceblue;
+}
