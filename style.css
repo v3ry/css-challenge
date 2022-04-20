@@ -38,11 +38,9 @@ h1 span{
 }
 .header h2{
     color:lightblue;
-    margin: 1rem;
-}
-.header ul{
     
 }
+
 .header ul li{
     color: aliceblue;
     margin: 0.7rem;
@@ -51,12 +49,12 @@ h1 span{
     
 }
 .main{
-    margin: 3rem;
+    margin: 1rem;
 }
 .main h2{
     display: block;
     width: fit-content;
-    margin: 3rem auto auto auto;
+    margin: 2rem auto auto auto;
     color: blue;
     padding: 0.5rem;
     background-color: aliceblue;
@@ -64,7 +62,7 @@ h1 span{
     border-radius: 10px;
 }
 .main ol{
-    margin: 3rem auto auto auto;
+    margin: 2rem auto auto auto;
     width:fit-content;
     background-color: aquamarine;
     border: 4px inset burlywood;
@@ -74,7 +72,7 @@ h1 span{
 
 .calorie h3{
     width: fit-content;
-    margin: 3rem auto;
+    margin: 2rem auto;
     padding: 0.5rem;
     background-color: aliceblue;
     border: 4px inset burlywood;
@@ -89,4 +87,30 @@ h1 span{
 .calorie th,td{
     border: 3px solid black;
     padding: 1rem;
+}
+
+.contact h3{
+    width: fit-content;
+    margin: 2rem auto;
+    padding: 0.5rem;
+    background-color: aliceblue;
+    border: 4px inset burlywood;
+    border-radius: 10px;
+}
+
+.contact form{
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    width: fit-content;
+    margin: 2rem auto;
+    padding: 0.5rem;
+    background-color: aliceblue;
+    border: 4px inset burlywood;
+    border-radius: 10px;
+}
+
+.contact textarea{
+    height: 150px;
+    width: 400px;
 }
